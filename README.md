@@ -1,5 +1,7 @@
 # Binary Color Picker
 
+[View the project](https://d-murphy.github.io/BinaryColorPicker/)
+
 A different type of color picker with binary controls to explore the relationship between Hex and RGB color values.  Experiment with the controls to see how the code values change or just randomly find your new favorite color.
 
 ### Project Objectives: 
