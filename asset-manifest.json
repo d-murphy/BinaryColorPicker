@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/BinaryColorPicker/static/css/main.543f2497.chunk.css",
+    "main.js": "/BinaryColorPicker/static/js/main.bff17dd2.chunk.js",
+    "main.js.map": "/BinaryColorPicker/static/js/main.bff17dd2.chunk.js.map",
+    "runtime-main.js": "/BinaryColorPicker/static/js/runtime-main.47f52182.js",
+    "runtime-main.js.map": "/BinaryColorPicker/static/js/runtime-main.47f52182.js.map",
+    "static/js/2.98be58a0.chunk.js": "/BinaryColorPicker/static/js/2.98be58a0.chunk.js",
+    "static/js/2.98be58a0.chunk.js.map": "/BinaryColorPicker/static/js/2.98be58a0.chunk.js.map",
+    "index.html": "/BinaryColorPicker/index.html",
+    "static/css/main.543f2497.chunk.css.map": "/BinaryColorPicker/static/css/main.543f2497.chunk.css.map",
+    "static/js/2.98be58a0.chunk.js.LICENSE.txt": "/BinaryColorPicker/static/js/2.98be58a0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.47f52182.js",
+    "static/js/2.98be58a0.chunk.js",
+    "static/css/main.543f2497.chunk.css",
+    "static/js/main.bff17dd2.chunk.js"
+  ]
+}
