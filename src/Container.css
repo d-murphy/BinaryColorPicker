@@ -28,11 +28,11 @@ html, body {
   .ColorDisplay {
     height: 250px;
     width: 100%;
-    padding: 10px 0px 10px 0px;
+    padding: 30px 0px 10px 0px;
     margin: 10px 0px 30px 0px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     font-size: large;
     border-top: 30px solid black;
     border-bottom: 30px solid black;
@@ -117,6 +117,37 @@ html, body {
     margin-right:10px;
     margin-left:10px;
   }
+
+  .info-icon-wrapper {
+    align-self: flex-end;
+    margin-right: 30px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .info-text{
+    visibility: hidden;
+    background-color: rgba(240,240,240,.6);
+    width: 140px;
+    color: black;
+    text-align: center;
+    font-size: x-small;
+    border-radius: 6px;
+    padding: 10px 5px;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -120px;
+  }
+
+  .info-icon-wrapper:hover .info-text{
+    visibility: visible;
+
+  }
+
   
   .by-line {
     background-color: whitesmoke;

@@ -1,6 +1,7 @@
 import './Container.css'
 import React, {useState} from 'react';
 import BinDigit from './BinDigit.js'
+import InfoIcon from './InfoIcon.js'
 
 var binaryLUs = {
     '0000': {
@@ -198,6 +199,13 @@ var binaryLUs = {
                 <div className='rgb-val rgb-val3'>{getBVal()}</div>
               </div>
             </div>
+            <div className="info-icon-wrapper">
+              <div className="info-text">
+                <div>Made by <a href="https://github.com/d-murphy">Dan Murphy</a></div>
+                <div className="credit-line">Inspiration credit to <a href="https://outofips.netlify.app/">Kat Huang</a></div>
+              </div>
+              <InfoIcon />
+            </div>
           </div>
           <div className='Container'>
             <div className='Byte' id="ByteRed">
@@ -291,10 +299,6 @@ var binaryLUs = {
                           expVal={0} />
               </div>
             </div>
-          </div>
-          <div className="by-line">
-            <div>Made by <a href="https://github.com/d-murphy">Dan Murphy</a></div>
-            <div className="credit-line">Inspiration credit to <a href="https://outofips.netlify.app/">Kat Huang</a></div>
           </div>
         </div>
     )
